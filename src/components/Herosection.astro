@@ -1,14 +1,15 @@
 ---
 import Primarybutton from "./ui/Buttons/Primarybutton.astro";
 import Discordhandle from "./ui/Discordhandle.astro";
+import Associators from "./ui/Associators.astro";
 ---
 
-<section class="w-full p-60 flex justify-center">
-  <div class="flex flex-col gap-10">
-    <h1 class="text-5xl text-white font-heading font-black text-center">
-      Hey, I'm splicho.
+<section class="p-48 flex justify-center">
+  <div class="flex flex-col gap-5">
+    <h1 class="text-center text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
+      Sup, I'm splicho.
     </h1>
-    <p class="text-white font-normal text-xl text-center">
+    <p class="max-w-[600px] text-zinc-200 md:text-xl dark:text-zinc-100 mx-auto text-center">
       A self-thought Graphic Designer & Frontend Developer.
     </p>
     <div class="flex gap-6 justify-center">
@@ -16,4 +17,7 @@ import Discordhandle from "./ui/Discordhandle.astro";
       <Discordhandle />
     </div>
   </div>
+</section>
+<section class="flex justify-center">
+<Associators />
 </section>

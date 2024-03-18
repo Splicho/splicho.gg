@@ -1,0 +1,48 @@
+---
+import emudevs from "../images/Logo_white.svg";
+import wyndao from "../images/wyndao.svg";
+import emutop from "../images/emutop.svg";
+import leakforums from "../images/Leakforums.svg";
+import { Image } from 'astro:assets';
+---
+<div class="flex flex-col gap-x-6 gap-y-8 px-4 md:px-6 lg:flex-row lg:items-center">
+        <span class="px-8 text-white text-center lg:gap-10">I've worked for projects such as:</span>
+    <ul class="flex flex-wrap sm:mb-50 items-center gap-10">
+        <li>
+            <Image
+            src={emudevs}
+            width={200}
+            height={120}
+            quality={80}
+            format="webp"
+            alt="emudevs"
+          /></li>
+          <li>
+            <Image
+            src={emutop}
+            width={200}
+            height={120}
+            quality={80}
+            format="webp"
+            alt="wyndao"
+          /></li>
+          <li>
+            <Image
+            src={wyndao}
+            width={200}
+            height={120}
+            quality={80}
+            format="webp"
+            alt="wyndao"
+          /></li>
+          <li>
+            <Image
+            src={leakforums}
+            width={200}
+            height={120}
+            quality={80}
+            format="webp"
+            alt="wyndao"
+          /></li>
+    </ul>
+</div>
