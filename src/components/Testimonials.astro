@@ -1,0 +1,113 @@
+---
+import psykko from "./images/psykko.png";
+import torete from "./images/torete.gif";
+import khulgar from "./images/khulgar.jpg";
+import lushen from "./images/lushen.jpg";
+import defaultavatar from "./images/default_avatar.jpg";
+import { Image } from "astro:assets";
+---
+
+<div id="#testimonials" class="min-w-screen flex items-center justify-center bg-black">
+    <div class="w-full px-5 py-16 md:py-24 text-gray-800">
+        <div class="w-full max-w-6xl mx-auto">
+            <div class="text-center max-w-xl mx-auto">
+                <h1 class="text-6xl md:text-7xl font-bold mb-5 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500 ">What customers <br>are saying.</h1>
+                <h3 class="text-xl mb-5 font-light text-white">Read what my customers are saying about my work.</h3>
+                <div class="text-center mb-10">
+                    <span class="inline-block w-1 h-1 rounded-full bg-white ml-1"></span>
+                    <span class="inline-block w-3 h-1 rounded-full bg-white ml-1"></span>
+                    <span class="inline-block w-40 h-1 rounded-full bg-white"></span>
+                    <span class="inline-block w-3 h-1 rounded-full bg-white ml-1"></span>
+                    <span class="inline-block w-1 h-1 rounded-full bg-white ml-1"></span>
+                </div>
+            </div>
+            <div class="-mx-3 md:flex items-start">
+                <div class="px-3 md:w-1/3">
+                    <div class="w-full mx-auto rounded-lg bg-black border border-gray-900 p-5 text-white font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <Image src={defaultavatar} height={100} quality={80} format="webp" alt="default_avatar.jpg">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-white">@Pluton</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Splicho's a patient designer, who pays attention to the minimal details and to every request that a costumer asks. I'm super satisfied with his services and I vouch him for sure!
+                                .<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                    <div class="w-full mx-auto rounded-lg bg-black border border-gray-900 p-5 text-white font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <Image src={defaultavatar} height={100} quality={80} format="webp" alt="default_avatar.jpg">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-white">@Splunk</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Splicho is best at what he does. Which is providing excellent product and service! I was told the product would be finished in a weeks time but it was finished much sooner! Very happy with the quality of work.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 md:w-1/3">
+                    <div class="w-full mx-auto rounded-lg bg-black border border-gray-900 p-5 text-white font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <Image src={khulgar} height={100} quality={80} format="webp" alt="khulgar.jpg">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-white">@KingKhulgar</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Splicho's eye for design is immaculate. Love the theme and appreciate the great communication!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                    <div class="w-full mx-auto rounded-lg bg-black border border-gray-900 p-5 text-white font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <Image src={lushen} height={100} quality={80} format="webp" alt="lushen.jpg">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-white">@Lushen</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Literally one of the design GOATS. Vouch for my homie splicho, he already made 10/10 Logo's for me too.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 md:w-1/3">
+                    <div class="w-full mx-auto rounded-lg bg-black border border-gray-900 p-5 text-white font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <Image src={psykko} height={100} quality={80} format="webp" alt="psykko.jpg">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-white">@Psykko</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Vouch, trusted designer. Good communication and delivery.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                    <div class="w-full mx-auto rounded-lg bg-black border border-gray-900 p-5 text-white font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <Image src={torete} height={100} quality={80} format="webp" alt="Torete.gif">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-white">@Torete</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-white mr-1">"</span>Great Person, Nice Attitude, Very communicative, Excellent work! 10/10 would contact again - A happy customer 🥰<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
